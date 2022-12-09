@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  width: 60%;
+  margin: 15px auto;
+  gap: 15px;
+}
+h1 {
+  margin-left: 2px;
+  margin-bottom: 15px;
+}
+.search-input {
+  height: 20px;
+  width: 97%;
+}
+.sorts button {
+  flex-direction: row;
+  margin-right: 5px;
+  padding: 1px 10px;
+  border: 1px solid black;
+  background-color: white;
+  transition: all 0.2s ease;
+  font-size: 1em;
+}
+.sorts button:hover {
+  background-color: rgba(198, 198, 198, 0.77);
+}
+
+.sorts button:active {
+  scale: 1.1;
+}
+
+.containerForFiltAndProduct {
+  display: flex;
+}
+.containerForFiltAndCoint {
+  padding: 10px;
+  display: block;
+}
+.count {
+  font-size: 20px;
+}
+.filter {
+  border: 2px solid rgb(176, 175, 175);
+  padding: 0.5em;
+  font-size: 18px;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.color-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.products {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+.item {
+  border: 5px solid rgb(176, 175, 175);
+  margin: 5px;
+  padding: 5px 10px;
+}
+.items-info {
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  justify-content: flex-end;
+}

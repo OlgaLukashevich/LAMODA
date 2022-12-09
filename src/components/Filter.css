@@ -1,0 +1,13 @@
+.check-color {
+  display: flex;
+  align-items: center;
+}
+
+.pricerange {
+  font-size: 1.4em;
+}
+
+.pricerange input {
+  width: 50px;
+  font-size: 14px;
+}
